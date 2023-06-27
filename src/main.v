@@ -17,4 +17,13 @@ fn main() {
 		age: 20
 	}
 	println(user2.can_register())
+
+	mut button := sample.Button{
+		title: 'Hello'
+		height: 100
+	}
+	button.width = 3
+	assert button.area() == 300
+	assert button.Size.area() == 300
+	print(button)
 }
