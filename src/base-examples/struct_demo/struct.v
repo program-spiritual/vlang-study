@@ -1,5 +1,3 @@
-module main
-
 struct Foo {
 mut:
 	x int

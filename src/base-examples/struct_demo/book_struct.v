@@ -1,5 +1,3 @@
-module main
-
 struct Book {
 	author struct {
 		name string
