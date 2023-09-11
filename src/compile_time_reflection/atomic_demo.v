@@ -35,6 +35,8 @@ fn change() int {
 }
 
 fn main() {
+	println('${@VEXEROOT}/thirdparty')
+
 	C.atomic_store_u32(&atom, 17)
 	t := spawn change()
 	mut races_won_by_main := 0
