@@ -7,11 +7,3 @@ my_closure := fn [my_int] () {
 }
 
 my_closure()
-
-func :=fn[i]() int{
-  return i
-}
-
- println(func(1)==1)
- i=123
- println(func()==1)
